@@ -5,7 +5,7 @@ pipeline {
     stage("build"){
       steps {
         echo 'building the app'
-        systemctl status jenkins
+        echo 'testfile' > letestfile
         //sh 'npm install'
         //sh 'npm build'
       }
